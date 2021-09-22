@@ -17,27 +17,40 @@
     }
 }
 
-//Contenedores Bajos
-
+// Contenedores Bajos
 .pink {
-    background: $rosa-claro ;
+    background: $rosa-claro;
     font-weight: bold;
 }
 
 .pinkO {
     background: $rosa;
-    
+
 }
 
-.sub1{
+.sub1 {
     padding-top: 20px;
 }
 
 .ocre {
-    background: $ocre ;
+    background: $ocre;
     font-weight: bold;
 }
 
 .imgRed {
     border-radius: 30px;
+}
+
+// Página: Sobre la psicomotricidad
+.titulo-sobre-psicom {
+    color: $verde-oscuro;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.descripcion-sobre-psicom {
+    margin-top: 1em;
+    color: rgb(42, 42, 42);
+    line-height: 1.2em;
+    text-align: justify;
 }
