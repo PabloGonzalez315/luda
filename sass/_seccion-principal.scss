@@ -45,14 +45,13 @@
 .textos-sobre-psicom {
     margin-right: 3em;
 
-    .titulo-sobre-psicom {
+    .titulo-sobre-paginas {
         color: $verde-oscuro;
         font-size: 4em;
         line-height: 0.98em;
-        margin-right: 551em;
     }
 
-    .descripcion-sobre-psicom {
+    .descripcion-paginas {
         margin-top: 1em;
         color: $verde-oscuro;
         line-height: 1em;
@@ -63,4 +62,34 @@
 
 .img-sobre-psicom {
     margin-left: 1em;
+}
+
+// Página: Quiénes somos
+.nombres {
+    color: $verde-oscuro;
+    font-weight: 700;
+    margin: 1em 0;
+}
+
+.signo-mas {
+    color: orange;
+}
+
+.propuesta-container {
+    width: 10em;
+    text-align: center;
+
+    .propuesta {
+        background-color: $verde-claro;
+        color: $verde-oscuro;
+        font-weight: 700;
+        margin: 1em 0;
+        border-radius: 1em;
+        padding: 0.2em;
+    }
+}
+
+.img-quienes-somos {
+    width: 18.8em;
+    margin-top: 1em;
 }
