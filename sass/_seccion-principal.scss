@@ -1,6 +1,5 @@
 // Carrusel
 .carrusel {
-
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         background-color: $verde-claro;
@@ -25,7 +24,6 @@
 
 .pinkO {
     background: $rosa;
-
 }
 
 .sub1 {
@@ -53,4 +51,15 @@
     color: rgb(42, 42, 42);
     line-height: 1.2em;
     text-align: justify;
+}
+
+.backFoo {
+    background-color: $verde-oscuro;
+    height: 150px;
+}
+
+.imgLogoBack {
+    border-radius: 15px;
+    width: 200px;
+    height: 70px;
 }
