@@ -1,5 +1,6 @@
 // Carrusel
 .carrusel {
+
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         background-color: $verde-claro;
@@ -40,26 +41,50 @@
 }
 
 // Página: Sobre la psicomotricidad
-.titulo-sobre-psicom {
+.textos-sobre-psicom {
+
+    .titulo-sobre-paginas {
+        color: $verde-oscuro;
+        font-size: 4em;
+        line-height: 0.98em;
+    }
+
+    .descripcion-paginas {
+        margin-top: 1em;
+        color: $verde-oscuro;
+        line-height: 1em;
+        text-align: justify;
+        font-size: 0.9em;
+    }
+}
+
+
+// Página: Quiénes somos
+.nombres {
     color: $verde-oscuro;
-    font-size: 4em;
-    line-height: 1em;
+    font-weight: 700;
+    margin: 1em 0;
 }
 
-.descripcion-sobre-psicom {
+.signo-mas {
+    color: orange;
+}
+
+.propuesta-container {
+    width: 10em;
+    text-align: center;
+
+    .propuesta {
+        background-color: $verde-claro;
+        color: $verde-oscuro;
+        font-weight: 700;
+        margin: 1em 0;
+        border-radius: 1em;
+        padding: 0.2em;
+    }
+}
+
+.img-quienes-somos {
+    width: 18.8em;
     margin-top: 1em;
-    color: rgb(42, 42, 42);
-    line-height: 1.2em;
-    text-align: justify;
-}
-
-.backFoo {
-    background-color: $verde-oscuro;
-    height: 150px;
-}
-
-.imgLogoBack {
-    border-radius: 15px;
-    width: 200px;
-    height: 70px;
 }

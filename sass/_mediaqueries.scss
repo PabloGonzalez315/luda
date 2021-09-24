@@ -1,4 +1,4 @@
-// Versión escritorio
+// Versión escritorio del menú
 @media (min-width: 1024px) {
     header {
         margin-bottom: 0px;
@@ -49,6 +49,62 @@
                     }
                 }
             }
+        }
+    }
+
+    .textos-sobre-psicom {
+        margin-right: 1em;
+    }
+
+    .img-sobre-psicom {
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    .textos-sobre-psicom {
+        margin-right: 0;
+        margin-left: 5em;
+    }
+
+    .img-sobre-psicom {
+        margin-left: 0;
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .textos-sobre-psicom {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .img-sobre-psicom {
+        margin-top: 1.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 440px) {
+    .textos-sobre-psicom {
+        .titulo-sobre-paginas {
+            font-size: 3.68em;
+        }
+    }
+}
+
+@media (max-width: 388px) {
+    .textos-sobre-psicom {
+        .titulo-sobre-paginas {
+            font-size: 3.2em;
         }
     }
 }
