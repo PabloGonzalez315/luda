@@ -1,0 +1,110 @@
+// Versión escritorio del menú
+@media (min-width: 1024px) {
+    header {
+        margin-bottom: 0px;
+
+        .main-nav {
+            .logo-nav-container {
+                .nav-bar {
+                    display: none;
+                }
+            }
+
+            .menu {
+                margin-left: 0;
+                display: flex;
+                justify-content: space-around;
+                padding: 0.6em;
+
+                .menu__link {
+                    padding: 6px 24px;
+
+                }
+
+                .container-submenu {
+                    position: relative;
+
+                    .submenu {
+                        position: absolute;
+                        top: 46px;
+                        width: 244px;
+                        overflow: visible;
+                        z-index: 999;
+                        opacity: 0;
+                        visibility: hidden;
+
+                        .menu__link {
+                            &:hover {
+                                border-radius: 0px;
+                                background: $rosa;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        .submenu {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .textos-sobre-psicom {
+        margin-right: 1em;
+    }
+
+    .img-sobre-psicom {
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1199px) {
+    .textos-sobre-psicom {
+        margin-right: 0;
+        margin-left: 5em;
+    }
+
+    .img-sobre-psicom {
+        margin-left: 0;
+        margin-left: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .textos-sobre-psicom {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .img-sobre-psicom {
+        margin-top: 1.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 440px) {
+    .textos-sobre-psicom {
+        .titulo-sobre-paginas {
+            font-size: 3.68em;
+        }
+    }
+}
+
+@media (max-width: 388px) {
+    .textos-sobre-psicom {
+        .titulo-sobre-paginas {
+            font-size: 3.2em;
+        }
+    }
+}
