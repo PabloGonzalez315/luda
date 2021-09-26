@@ -52,7 +52,7 @@
         }
     }
 
-    .textos-paginas {
+    .textos-sobre-psicom {
         margin-right: 1em;
     }
 
@@ -65,17 +65,9 @@
 }
 
 @media (max-width: 1199px) {
-    .textos-paginas {
+    .textos-sobre-psicom {
         margin-right: 0;
         margin-left: 5em;
-
-        .titulos-quienes-somos {
-            font-size: 2.88em;
-        }
-    }
-
-    .textos-quienes-somos {
-        margin-left: 0;
     }
 
     .img-sobre-psicom {
@@ -88,13 +80,9 @@
 }
 
 @media (max-width: 767px) {
-    .textos-paginas {
+    .textos-sobre-psicom {
         margin-right: 0;
         margin-left: 0;
-
-        .titulos-quienes-somos {
-            font-size: 2.7em;
-        }
     }
 
     .img-sobre-psicom {
@@ -103,14 +91,10 @@
         justify-content: center;
         align-items: center;
     }
-
-    .img-quienes-somos {
-        width: 15em;
-    }
 }
 
 @media (max-width: 440px) {
-    .textos-paginas {
+    .textos-sobre-psicom {
         .titulo-sobre-paginas {
             font-size: 3.68em;
         }
@@ -118,7 +102,7 @@
 }
 
 @media (max-width: 388px) {
-    .textos-paginas {
+    .textos-sobre-psicom {
         .titulo-sobre-paginas {
             font-size: 3.2em;
         }
