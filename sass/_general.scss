@@ -1,10 +1,10 @@
 /* Paleta de colores */
-$verde-oscuro: #637B7E;
-$verde-claro: #C0D5BC;
-$rosa: #E8BFBC;
-$rosa-claro: #F3DFDD;
-$ocre: #C89449;
-$ocre-claro: #E3C599;
+$verde-oscuro: #637b7e;
+$verde-claro: #c0d5bc;
+$rosa: #e8bfbc;
+$rosa-claro: #f3dfdd;
+$ocre: #c89449;
+$ocre-claro: #e3c599;
 /* $gris: #E5E1E1; */
 $gris: #ececec;
 
@@ -32,4 +32,20 @@ p {
 
 .col-3 {
     width: 28%;
+}
+
+.rosa {
+    color: $rosa;
+}
+
+.celeste {
+    color: steelblue;
+}
+
+.azul {
+    color: $verde-oscuro;
+}
+
+.ocre {
+    color: $ocre;
 }
