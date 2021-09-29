@@ -52,150 +52,130 @@
         }
     }
 
-    <<<<<<< HEAD .textos-sobre-psicom {
-        margin-right: 1em;
+    .textos-paginas {
+        margin-right: 0em;
+    }
 
-        =======.textos-paginas {
-            margin-right: 0em;
-            >>>>>>>Tomas
-        }
+    .img-sobre-psicom {
+        margin-left: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
-        .img-sobre-psicom {
-            margin-left: 0em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+@media (max-width: 1199px) {
+    .textos-paginas {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .img-sobre-psicom {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1050px) {
+    .textos-paginas {
+        .titulo-sobre-paginas {
+            font-size: 3.4em;
         }
     }
 
-    @media (max-width: 1199px) {
-        .textos-sobre-psicom {
-            margin-right: 0;
-            <<<<<<< HEAD margin-left: 5em;
-            =======margin-left: 0;
-            >>>>>>>Tomas
+    .img-quienes-somos {
+        width: 18em;
+    }
+}
+
+@media (max-width: 900px) {
+    .textos-paginas {
+        .titulo-sobre-paginas {
+            font-size: 2.9em;
         }
 
-        .img-sobre-psicom {
-            margin-left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .descripcion-paginas {
+            font-size: 1em;
         }
     }
 
-    <<<<<<< HEAD @media (max-width: 767px) {
-        .textos-sobre-psicom {
-            margin-right: 0;
-            margin-left: 0;
+    .img-sobre-psicom {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
 
-            =======@media (max-width: 1050px) {
-                .textos-paginas {
-                    .titulo-sobre-paginas {
-                        font-size: 3.4em;
-                    }
-                }
+        img {
+            width: 16em;
+        }
+    }
+}
 
-                .img-quienes-somos {
-                    width: 18em;
-                }
-            }
+@media (max-width: 767px) {
+    .textos-paginas {
+        margin-right: 0;
+        margin-left: 0;
 
-            @media (max-width: 900px) {
-                .textos-paginas {
-                    .titulo-sobre-paginas {
-                        font-size: 2.9em;
-                    }
+        .titulo-sobre-paginas {
+            font-size: 2.6em;
+        }
+    }
 
-                    .descripcion-paginas {
-                        font-size: 1em;
-                    }
+    .img-quienes-somos {
+        width: 15em;
+    }
 
-                    >>>>>>>Tomas
-                }
+    .que-nos-diferencia {
+        margin-top: 2em;
+    }
+}
 
-                .img-sobre-psicom {
-                    display: flex;
-                    justify-content: flex-end;
-                    align-items: center;
+@media (max-width: 736px) {
+    .textos-paginas {
+        .titulo-sobre-paginas {
+            font-size: 2.6em;
+        }
+    }
 
-                    img {
-                        width: 16em;
-                    }
-                }
-            }
+    .img-quienes-somos {
+        width: 16em;
+    }
+}
 
-            @media (max-width: 767px) {
-                .textos-paginas {
-                    margin-right: 0;
-                    margin-left: 0;
+@media (max-width: 708px) {
+    .textos-paginas {
+        .titulo-sobre-psicom {
+            font-size: 2.1em;
+        }
 
-                    .titulo-sobre-paginas {
-                        font-size: 2.6em;
-                    }
-                }
+        .descripcion-paginas {
+            font-size: 0.9em;
+        }
+    }
 
-                <<<<<<< HEAD
-            }
+    .img-sobre-psicom {
+        img {
+            width: 14em;
+        }
+    }
+}
 
-            @media (max-width: 440px) {
-                .textos-sobre-psicom {
-                    =======.img-quienes-somos {
-                        width: 15em;
-                    }
+@media (max-width: 575px) {
+    .img-sobre-psicom {
+        justify-content: center;
+        margin-top: 1.5em;
+    }
+}
 
-                    .que-nos-diferencia {
-                        margin-top: 2em;
-                    }
-                }
+@media (max-width: 450px) {
+    .textos-paginas {
+        .titulo-sobre-paginas {
+            font-size: 2.12em;
+        }
+    }
 
-                @media (max-width: 736px) {
-                    .textos-paginas {
-                        >>>>>>>Tomas .titulo-sobre-paginas {
-                            font-size: 2.6em;
-                        }
-                    }
-
-                    .img-quienes-somos {
-                        width: 16em;
-                    }
-                }
-
-                <<<<<<< HEAD @media (max-width: 388px) {
-                    .textos-sobre-psicom {
-                        =======@media (max-width: 708px) {
-                            .textos-paginas {
-                                .titulo-sobre-psicom {
-                                    font-size: 2.1em;
-                                }
-
-                                .descripcion-paginas {
-                                    font-size: 0.9em;
-                                }
-                            }
-
-                            .img-sobre-psicom {
-                                img {
-                                    width: 14em;
-                                }
-                            }
-                        }
-
-                        @media (max-width: 575px) {
-                            .img-sobre-psicom {
-                                justify-content: center;
-                                margin-top: 1.5em;
-                            }
-                        }
-
-                        @media (max-width: 450px) {
-                            .textos-paginas {
-                                >>>>>>>Tomas .titulo-sobre-paginas {
-                                    font-size: 2.12em;
-                                }
-                            }
-
-                            .ficha-contacto {
-                                width: 20em;
-                            }
-                        }
+    .ficha-contacto {
+        width: 20em;
+    }
+}

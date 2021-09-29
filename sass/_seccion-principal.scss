@@ -42,7 +42,7 @@
 }
 
 // Página: Sobre la psicomotricidad
-.textos-sobre-psicom {
+.textos-paginas {
 
     .titulo-sobre-paginas {
         color: $verde-oscuro;
@@ -88,4 +88,43 @@
 .img-quienes-somos {
     width: 18.8em;
     margin-top: 1em;
+}
+
+// Página: Contacto
+.ficha-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: $verde-claro;
+    padding: 1.4em;
+    width: 25em;
+    border-radius: 6%;
+
+    .descripcion-paginas {
+        text-align: center;
+    }
+
+    .iconos-redes {
+        margin: 1.4em 0;
+        margin-top: 1.6em;
+        color: $verde-oscuro;
+
+        i {
+            margin: 0 0.2em;
+            font-size: 1.48em;
+        }
+    }
+
+    .datos-contacto {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+        color: $verde-oscuro;
+
+        p {
+            margin: 0 0.6em;
+        }
+    }
 }
