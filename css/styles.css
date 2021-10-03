@@ -26,6 +26,30 @@ p {
   width: 28%;
 }
 
+<<<<<<< HEAD
+=======
+.rosa {
+  color: #e8bfbc;
+}
+
+.celeste {
+  color: steelblue;
+}
+
+.azul {
+  color: #637b7e;
+}
+
+.ocre {
+  color: #c89449;
+}
+
+.sub1 {
+  font-size: 24px;
+  color: black;
+}
+
+>>>>>>> Pablo
 header {
   margin-bottom: -408px;
 }
@@ -124,8 +148,12 @@ header .fixed {
 }
 
 .pink {
+<<<<<<< HEAD
   background: #F3DFDD;
   font-weight: bold;
+=======
+  background: #f3dfdd;
+>>>>>>> Pablo
 }
 
 .pinkO {
@@ -137,8 +165,12 @@ header .fixed {
 }
 
 .ocre {
+<<<<<<< HEAD
   background: #C89449;
   font-weight: bold;
+=======
+  background: #c89449;
+>>>>>>> Pablo
 }
 
 .imgRed {
@@ -186,9 +218,14 @@ header .fixed {
   margin-top: 1em;
 }
 
+<<<<<<< HEAD
 .backFoo {
   background-color: #637B7E;
   height: 150px;
+=======
+footer {
+  background-color: #637b7e;
+>>>>>>> Pablo
 }
 
 .imgLogoBack {
