@@ -41,6 +41,11 @@ p {
   color: #c89449;
 }
 
+.sub1 {
+  font-size: 24px;
+  color: black;
+}
+
 header {
   margin-bottom: -408px;
 }
@@ -140,7 +145,6 @@ header .fixed {
 
 .pink {
   background: #f3dfdd;
-  font-weight: bold;
 }
 
 .pinkO {
@@ -153,7 +157,6 @@ header .fixed {
 
 .ocre {
   background: #c89449;
-  font-weight: bold;
 }
 
 .imgRed {
@@ -201,9 +204,8 @@ header .fixed {
   margin-top: 1em;
 }
 
-.backFoo {
+footer {
   background-color: #637b7e;
-  height: 150px;
 }
 
 .imgLogoBack {
