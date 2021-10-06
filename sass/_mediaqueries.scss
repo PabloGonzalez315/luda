@@ -36,7 +36,7 @@
                         .menu__link {
                             &:hover {
                                 border-radius: 0px;
-                                background: $rosa;
+                                background: #E8BFBC;
                             }
                         }
                     }
@@ -175,8 +175,15 @@
         }
     }
 
-    .imagen-categorias {
+    .sub1 {
+        font-size: 1em;
+    }
 
+    .btn {
+        font-size: 0.8em;
+    }
+
+    .imagen-categorias {
         a {
             img {
                 width: 90%;

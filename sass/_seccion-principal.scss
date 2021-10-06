@@ -3,7 +3,7 @@
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-        background-color: $verde-claro;
+        background-color: #C0D5BC;
         border-radius: 6px;
         width: 1.8em;
     }
@@ -19,12 +19,12 @@
 
 // Contenedores Bajos
 .pink {
-    background: $rosa-claro;
+    background: #F3DFDD;
 
 }
 
 .pinkO {
-    background: $rosa;
+    background: #E8BFBC;
 
 }
 
@@ -33,26 +33,27 @@
 }
 
 .ocre {
-    background: $ocre;
+    background: #C89449;
 
 }
 
 .imgRed {
-    border-radius: 30px;
+    border-radius: 20px;
+    width: 86%;
 }
 
 // Página: Sobre la psicomotricidad
 .textos-paginas {
 
     .titulo-sobre-paginas {
-        color: $verde-oscuro;
+        color: #637B7E;
         font-size: 3.5em;
         line-height: 0.98em;
     }
 
     .descripcion-paginas {
         margin-top: 1em;
-        color: $verde-oscuro;
+        color: #637B7E;
         line-height: 1em;
         text-align: justify;
         font-size: 1em;
@@ -62,7 +63,7 @@
 
 // Página: Quiénes somos
 .nombres {
-    color: $verde-oscuro;
+    color: #637B7E;
     font-weight: 700;
     margin: 1em 0;
 }
