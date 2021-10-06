@@ -166,6 +166,14 @@
         justify-content: center;
         margin-top: 1.5em;
     }
+
+    .textos-paginas {
+        .titulo-categorias {
+            p {
+                font-size: 1.2em;
+            }
+        }
+    }
 }
 
 @media (max-width: 450px) {
