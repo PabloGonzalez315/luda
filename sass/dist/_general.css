@@ -15,6 +15,9 @@ body {
   margin: 0;
   background-color: #fff;
 }
+body .ocultar {
+  display: none;
+}
 
 p {
   margin: 0;
